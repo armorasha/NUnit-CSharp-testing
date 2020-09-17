@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Users\000930322\Downloads\5TST\Assignment 1\Submission\Arumuga_5TST_SAAirline_Ticketing_Application\Arumuga_SAAirline_TestProject.nunit</TopNode>
+  <SelectedNode>[0-1001]SalesTests.SalesTestsClass</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Users\000930322\Downloads\5TST\Assignment 1\Submission\Arumuga_5TST_SAAirline_Ticketing_Application\Arumuga_SAAirline_TestProject.nunit" Expanded="true" />
+    <Node UniqueName="[0-1025]C:\Users\000930322\Downloads\5TST\Assignment 1\Submission\Arumuga_5TST_SAAirline_Ticketing_Application\SalesTests\bin\Debug\SalesTests.dll" Expanded="true" />
+    <Node UniqueName="[0-1026]SalesTests" Expanded="true" />
+    <Node UniqueName="[0-1001]SalesTests.SalesTestsClass" Expanded="true" />
+  </Nodes>
+</VisualState>

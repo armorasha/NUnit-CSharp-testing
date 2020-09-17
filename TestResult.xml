@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\000930322\Downloads\5TST\Assignment 1\Submission\Arumuga_5TST_SAAirline_Ticketing_Application\Arumuga_SAAirline_TestProject.nunit" total="23" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-06-21" time="18:40:18">
+  <environment nunit-version="2.7.0.0" clr-version="2.0.50727.9040" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.7.0\bin" machine-name="DESKTOP-QFP3RN8" user="000930322" user-domain="TAFESA" />
+  <culture-info current-culture="en-AU" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Users\000930322\Downloads\5TST\Assignment 1\Submission\Arumuga_5TST_SAAirline_Ticketing_Application\Arumuga_SAAirline_TestProject.nunit" executed="True" result="Failure" success="False" time="0.284" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\000930322\Downloads\5TST\Assignment 1\Submission\Arumuga_5TST_SAAirline_Ticketing_Application\SalesTests\bin\Debug\SalesTests.dll" executed="True" result="Failure" success="False" time="0.275" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="SalesTests" executed="True" result="Failure" success="False" time="0.275" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="SalesTestsClass" executed="True" result="Failure" success="False" time="0.274" asserts="0">
+                <results>
+                  <test-case name="SalesTests.SalesTestsClass.a1_IsDiscountCorrect" executed="True" result="Success" success="True" time="0.064" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.a2_IsDiscountCorrect" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.a3_IsDiscountCorrect" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.b1_IsbookAllSeatsSuccessful" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.b2_IsbookAllSeatsSuccessful" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.b3_IsbookAllSeatsSuccessful" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.c1_IsActivitybookSeatsSuccessful" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.c2_IsActivitybookSeatsSuccessful" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.c3_IsActivitybookSeatsSuccessful" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.d1_IsgetCustomerBookingCorrect" executed="True" result="Success" success="True" time="0.002" asserts="5" />
+                  <test-case name="SalesTests.SalesTestsClass.d2_IsgetCustomerBookingCorrect" executed="True" result="Success" success="True" time="0.005" asserts="5" />
+                  <test-case name="SalesTests.SalesTestsClass.e1_CustomerIsNull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.f1_CustomerAreSame" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.f2_CustomerAreNotSame" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.g1_FlightEconomySeatsThrowsExceptionWhenZero" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.g2_FlightEconomySeatsDoesNotThrowsExceptionWhenNotZero" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.h1_SetNumberOfSeatsThrowsExceptionWhenZero" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.h2_SetNumberOfSeatsThrowsExceptionWhenOutOfRange" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.h3_SetNumberOfSeatsThrowsExceptionWhenOutOfRange" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.i1_IsCustomerCorrect" executed="True" result="Success" success="True" time="0.001" asserts="6" />
+                  <test-case name="SalesTests.SalesTestsClass.j1_IsInvoiceGetChargeCorrect" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.j2_IsInvoiceGetChargeCorrect" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="SalesTests.SalesTestsClass.j3_IsInvoiceGetChargeCorrect" executed="True" result="Failure" success="False" time="0.011" asserts="1">
+                    <failure>
+                      <message><![CDATA[  Charge not equal
+  Expected: 2222.0d
+  But was:  2000.0d
+]]></message>
+                      <stack-trace><![CDATA[at SalesTests.SalesTestsClass.j3_IsInvoiceGetChargeCorrect() in C:\Users\000930322\Downloads\5TST\Assignment 1\Submission\Arumuga_5TST_SAAirline_Ticketing_Application\SalesTests\SalesTestsClass.cs:line 327
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
